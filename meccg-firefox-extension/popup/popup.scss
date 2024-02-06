@@ -1,0 +1,46 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 300px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.popover {
+  padding: 20px;
+
+  h1 {
+    font-size: 1.2em;
+    font-weight: inherit;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  button {
+    border: none;
+    background-color: transparent;
+    color: #0095ff;
+    cursor: pointer;
+    padding: 1em;
+
+    &:hover {
+      color: #0071c0;
+    }
+  }
+}
+
+
+.page-choice {
+  width: 100%;
+  padding: 4px;
+  font-size: 1.5em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.page-choice:hover {
+  background-color: #cff2f2;
+}
+

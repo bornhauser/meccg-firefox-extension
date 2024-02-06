@@ -2,10 +2,15 @@
   "manifest_version": 2,
   "name": "MeCCG Cards Visualizer",
   "version": "1.0",
-  "description": "Adds a red border to all webpages matching twitch.tv",
+  "description": "Replace and extend names of MeCCG cards with a hover image preview",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/main/beastify",
   "icons": {
     "48": "icons/icon-48.png",
     "96": "icons/icon-96.png"
+  },
+  "browser_action": {
+    "default_popup": "/popup/popup.html",
+    "default_title": "MeCCG Cards Visualizer"
   },
   "content_scripts": [
     {
@@ -26,6 +31,7 @@
     }
   ],
   "permissions": [
-    "webRequest"
+    "webRequest",
+    "activeTab"
   ]
 }
