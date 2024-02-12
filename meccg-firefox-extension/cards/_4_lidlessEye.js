@@ -1,4 +1,4 @@
-const mele = [
+var _4_lidlessEye = [
     'Adûnaphel the Ringwraith',
     'Akhôrahil the Ringwraith',
     'Dwar the Ringwraith',

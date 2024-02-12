@@ -5,12 +5,18 @@
     <link rel="stylesheet" href="popup.scss"/>
 </head>
 <body>
-<div class="popover">
+<div class="popup-content">
     <h1>MeCCG Cards Visualizer</h1>
-    <p>Replace and extend names of MeCCG cards with a hover image preview</p>
-    <button id="activateMECCG">Activate</button>
-    <button id="deactivateMECCG">Deacivate</button>
-    <script src="popup.js"></script>
+    <p>Extend names of MeCCG cards with hover image previews. This Firefox extension can confuse some websites and schould normally be deactivated.</p>
+    <p class="show-when-active right-align">(active)</p>
+    <p class="show-when-inactive right-align">(inactive)</p>
+    <div class="line"></div>
+    <div class="button-row">
+        <button id="activateButton" class="show-when-inactive">Activate</button>
+        <button id="deactivateButton" class="show-when-active">Deacivate</button>
+        <button id="refreshButton" class="show-when-active">Refresh</button>
+    </div>
 </div>
+<script src="popup.js"></script>
 </body>
 </html>

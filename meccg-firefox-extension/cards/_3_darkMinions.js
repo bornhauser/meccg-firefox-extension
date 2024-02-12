@@ -1,4 +1,4 @@
-const medm = [
+var _3_darkMinions = [
     'Anarin',
     'Baduila',
     'Bill Ferny',

@@ -1,4 +1,4 @@
-const meba = [
+var _7_theBalrog = [
     'Strider',
     'Azog',
     'Bolg',
@@ -39,9 +39,9 @@ const meba = [
     'Invade Their Domain',
     'Long Grievous Siege',
     'Lord and Usurper',
-    'Maker’s Map',
+    'Maker\'s Map',
     'Memories of Old Torture',
-    'Mine or No One’s',
+    'Mine or No One\'s',
     'No Better Use',
     'Obey Him or Die',
     'Orders from the Great Demon',
@@ -68,8 +68,8 @@ const meba = [
     'Olog Warlords',
     'Shelob’s Brood',
     'Spawn of Ungoliant',
-    'Ungoliant’s Foul Issue',
-    'Ungoliant’s Progeny',
+    'Ungoliant\'s Foul Issue',
+    'Ungoliant\'s Progeny',
     'Black Vapour',
     'Darkness Made by Malice',
     'Desire All for Thy Belly',
@@ -102,5 +102,5 @@ const meba = [
     'The Under-grottos',
     'The Under-leas',
     'The Under-vaults',
-    'The Wind-deeps B',
+    'The Wind-deeps',
 ];

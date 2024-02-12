@@ -1,4 +1,4 @@
-const mewh = ['Alatar',
+var _6_whiteHand = ['Alatar',
     'Gandalf',
     'Pallando',
     'Radagast',

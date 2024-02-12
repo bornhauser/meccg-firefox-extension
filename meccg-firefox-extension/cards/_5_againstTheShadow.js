@@ -1,4 +1,4 @@
-const meas = [
+var _5_againstTheShadow = [
     'Bûrat',
     'Mauhúr',
     'Mîonid',

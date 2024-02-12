@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 html,
 body {
   padding: 0;
@@ -6,37 +7,64 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.popover {
+.right-align {
+  text-align: right;
+}
+
+.popup-content {
   padding: 20px;
 }
-.popover h1 {
-  font-size: 1.2em;
+.popup-content .show-when-inactive {
+  display: block;
+}
+.popup-content .show-when-active {
+  display: none;
+}
+.popup-content._active .show-when-inactive {
+  display: none;
+}
+.popup-content._active .show-when-active {
+  display: block;
+}
+.popup-content h1 {
+  font-size: 1em;
   font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.4em;
+  padding-left: 2.8em;
+  background-image: url("../img/icon_1-96.png");
+  background-size: 2em;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  display: flex;
+  align-items: center;
+  min-height: 2em;
 }
-.popover p {
+.popup-content .line {
+  margin: 1em 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.popup-content p {
   font-size: 0.8em;
+  margin: 0;
+  padding: 0.5em 0 0 0.2em;
 }
-.popover button {
+.popup-content .button-row {
+  display: flex;
+  gap: 1em;
+  padding-left: 0.2em;
+}
+.popup-content .button-row button {
+  font-size: 0.9em;
   border: none;
   background-color: transparent;
   color: #0095ff;
   cursor: pointer;
-  padding: 1em;
+  padding: 0;
 }
-.popover button:hover {
+.popup-content .button-row button:hover {
   color: #0071c0;
-}
-
-.page-choice {
-  width: 100%;
-  padding: 4px;
-  font-size: 1.5em;
-  text-align: center;
-  cursor: pointer;
-}
-
-.page-choice:hover {
-  background-color: #cff2f2;
 }
 
 /*# sourceMappingURL=popup.css.map */

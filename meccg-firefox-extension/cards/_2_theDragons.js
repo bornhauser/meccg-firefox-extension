@@ -1,4 +1,4 @@
-const metd = [
+var _2_theDragons = [
     'Brand',
     'Fram Framson',
     'Galdor',
