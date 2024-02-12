@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "version": "sudo n 18",
-    "zip": "zip -r -FS meccg-firefox-extension.zip ./meccg-firefox-extension/*"
+    "zip": "zip -r -FS meccg-firefox-extension.zip *"
   }
 }
